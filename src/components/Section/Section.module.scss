@@ -1,0 +1,22 @@
+.Section {
+  display: flex;
+  max-width: 400px;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  flex-direction: column;
+
+  background-color: rgba(44, 34, 34, 0.822);
+  border-radius: 10px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}

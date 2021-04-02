@@ -1,0 +1,38 @@
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.feedbackButton {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  transition: all 400ms linear;
+  font-size: 1.1rem;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-3px);
+    transition: all 400ms linear;
+  }
+
+  &:nth-child(1):hover {
+    background-color: rgb(117, 219, 117);
+  }
+
+  &:nth-child(2):hover {
+    background-color: rgba(166, 179, 166, 0.911);
+  }
+
+  &:nth-child(3):hover {
+    background-color: red;
+  }
+}
+
+.feedbackButton:nth-last-child(n + 2) {
+  margin-right: 15px;
+}

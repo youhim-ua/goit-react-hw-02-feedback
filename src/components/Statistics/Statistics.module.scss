@@ -1,0 +1,16 @@
+.title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.statisticsBox {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 55px;
+}
+
+.statisticsBox > span:nth-last-child(n + 2) {
+  margin-bottom: 10px;
+}
